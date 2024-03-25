@@ -1,0 +1,44 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+
+    .contact_elem1{
+        margin-left: 7.5%;
+
+        & p:first-child{
+            font-size: 3.3vw;
+            font-weight: 800;
+        }
+
+        & p:nth-of-type(2){
+            font-size: 1.6vw;
+            padding-top: 15%;
+        }
+
+        & p:nth-of-type(3){
+            font-size: 2vw;
+            font-weight: 800;
+            margin-top: -3%;
+        }
+
+        & i{
+            font-size: 3.5vw;
+            margin-top: 10%;
+        }
+
+        & i:last-child{
+            padding-left: 10%;
+        }
+    }
+
+    .contact_picture{
+        margin-top: 4%;
+        margin-left: auto;
+        margin-right: -3%;
+
+        & img{
+            max-width: 90%;
+        }
+    }
+}

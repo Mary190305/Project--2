@@ -1,0 +1,36 @@
+@import "header/header";
+@import "canvas/canvas";
+@import "price/price";
+@import "rules/rules";
+@import "contact/contact";
+@import "footer/footer";
+@import "our works and complex grid/our_works_and_complex_grid";
+@import "simple grid/simple_grid";
+
+@font-face{
+    font-family: 'FuturaPTLight';
+    src: url(fonts/FuturaPTLight.otf);
+}
+
+body{
+   display: flex;
+   flex-direction: column;
+   font-family: 'FuturaPTLight';
+   font-weight: 400;
+   color: #000;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+@media(max-width: 1024px){
+    .contact{
+    
+        .contact_picture{
+            margin-right: -5%;
+
+            & img{
+                max-width: 85%;
+            }
+        }
+    }
+}
